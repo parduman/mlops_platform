@@ -1,5 +1,5 @@
 # MLOps Platform Backend Service
-
+https://simplismart.notion.site/Backend-Engineering-Assignment-af3b93a1f3df454f87042bbd7cb1a537
 This project is a backend service for an MLOps platform, designed to manage user authentication, organization membership, cluster resource allocation, and deployment scheduling. The service optimizes deployment priority, resource utilization, and maximizes successful deployments.
 
 ## Features
