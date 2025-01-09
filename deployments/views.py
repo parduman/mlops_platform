@@ -23,3 +23,7 @@ def create_deployment(request):
     else:
         form = DeploymentForm()
     return render(request, 'create_deployment.html', {'form': form})
+
+# scheduling.py
+def schedule_deployments(deployments):
+    return sorted(deployments, key=lambda d: d.priority, reverse=True)
